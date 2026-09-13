@@ -6,6 +6,8 @@
 - 主题仓库：<https://github.com/demius782/astro-demius-two>
 - 开发者博客：<https://blog.demius.tech/>
 
+自定义域名使用 `astrotwo.demius.tech`，DNS 中将 `astrotwo` 配置为 CNAME 指向 `demius782.github.io`。
+
 ```bash
 npm install
 npm run docs:dev

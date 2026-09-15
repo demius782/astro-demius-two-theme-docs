@@ -27,7 +27,7 @@ jobs:
       - run: npm install
       - run: npm run docs:build
       - uses: actions/upload-pages-artifact@v3
-        with: { path: docs/.vuepress/dist }
+        with: { path: docs/.vitepress/dist }
   deploy:
     environment:
       name: github-pages
